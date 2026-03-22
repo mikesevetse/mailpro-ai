@@ -14,10 +14,11 @@
   <Description DefaultValue="Corrige et améliore vos mails en un clic grâce à l'IA Claude."/>
   <IconUrl DefaultValue="https://cdn.jsdelivr.net/gh/twitter/twemoji@14/assets/72x72/2728.png"/>
   <HighResolutionIconUrl DefaultValue="https://cdn.jsdelivr.net/gh/twitter/twemoji@14/assets/72x72/2728.png"/>
-  <SupportUrl DefaultValue="https://claude.ai"/>
+  <SupportUrl DefaultValue="https://mikesevetse.github.io/mailpro-ai/taskpane.html"/>
 
   <AppDomains>
     <AppDomain>https://api.anthropic.com</AppDomain>
+    <AppDomain>https://mikesevetse.github.io</AppDomain>
   </AppDomains>
 
   <Hosts>
@@ -33,7 +34,7 @@
   <FormSettings>
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://VOTRE-DOMAINE/taskpane.html"/>
+        <SourceLocation DefaultValue="https://mikesevetse.github.io/mailpro-ai/taskpane.html"/>
         <RequestedHeight>550</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -94,8 +95,8 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://cdn.jsdelivr.net/gh/twitter/twemoji@14/assets/72x72/2728.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://VOTRE-DOMAINE/taskpane.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://VOTRE-DOMAINE/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://mikesevetse.github.io/mailpro-ai/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://mikesevetse.github.io/mailpro-ai/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="MailPro AI"/>
